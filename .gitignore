@@ -1,0 +1,23 @@
+# Ignore Python-specific files
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignore environment-specific files
+.env
+venv/
+env/
+*.egg-info/
+dist/
+
+# Ignore generated files
+scraped_data.txt
+scraped_articles.txt
+
+# Ignore IDE-specific files
+.idea/
+.vscode/
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
